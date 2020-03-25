@@ -1,0 +1,73 @@
+.body {
+    background-color: rgb(211, 203, 203);
+    
+    
+}
+.container {
+    background-color: white;
+    max-width: 720px;
+    width: 100%;
+
+}
+.h1 {
+    color: black;
+    text-align: center;
+    margin: 10px;
+    line-height: 70px;
+    /* border-spacing: 20px; */
+}
+.h3 {
+    color: red;
+    justify-content: center;
+}
+ 
+ .hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid rgb(146, 144, 144);
+    margin: 1em 0;
+    padding: 0;
+}
+
+#textArea {
+    border-style: dashed;
+    border-color: darkgray;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 150px;
+    font-size: 14px;
+
+}
+
+.generateBtn {
+    background-color: rgb(161, 70, 70);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 18px;
+  }
+  
+  .copyBtn {
+    background-color: rgb(84, 133, 179);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 18px;
+  }
+
+  .button:hover {
+    background-color: #f1f1f1;
+  }
